@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SamsungSDI/static/css/main.c8bfbf12.css",
+    "main.js": "/SamsungSDI/static/js/main.33494759.js",
+    "static/js/453.74b979ee.chunk.js": "/SamsungSDI/static/js/453.74b979ee.chunk.js",
+    "index.html": "/SamsungSDI/index.html",
+    "main.c8bfbf12.css.map": "/SamsungSDI/static/css/main.c8bfbf12.css.map",
+    "main.33494759.js.map": "/SamsungSDI/static/js/main.33494759.js.map",
+    "453.74b979ee.chunk.js.map": "/SamsungSDI/static/js/453.74b979ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8bfbf12.css",
+    "static/js/main.33494759.js"
+  ]
+}
