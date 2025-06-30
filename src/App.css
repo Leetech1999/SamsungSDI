@@ -1,0 +1,35 @@
+button {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.business-img {
+  width: 100%;
+  height: auto !important;
+  border-radius: 12px !important;
+  object-fit: cover;
+  display: block;
+  transition: height 0.3s ease;
+}
+/* 기본 bullet: 흰 테두리만 있는 원 */
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: transparent !important;
+  border: 2px solid white !important;
+  opacity: 1 !important; /* Swiper 기본 opacity 제거 */
+  transition: all 0.3s ease !important;
+}
+
+/* 선택된 bullet: 흰색 배경 + 가로로 확장 */
+.swiper-pagination-bullet-active {
+  width: 24px !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+}
+
+@media (min-width: 681px) and (max-width: 1280px) {
+  .business-img {
+    height: 350px !important;
+  }
+}
